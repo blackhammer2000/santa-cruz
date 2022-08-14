@@ -1,0 +1,106 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.orange {
+  background-color: rgb(255, 166, 0);
+  padding: 1em 1.2em;
+  border-radius: 1.3em;
+  width: 7em;
+  text-align: center;
+  margin-top: -0.1em;
+}
+
+.otherLinks {
+  background-color: rgba(255, 166, 0, 0);
+  padding: 1em 1.2em;
+  border-radius: 1.3em;
+  width: 7em;
+  text-align: center;
+  margin-top: -0.1em;
+  cursor: pointer;
+}
+
+.otherLinks:hover {
+  background-color: rgba(255, 166, 0, 0.6);
+}
+
+body {
+  min-height: 100vh;
+  background-image: url("364058.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+header ul {
+  text-align: right;
+  margin-top: 1.1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  list-style: none;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+header ul li {
+  margin: 1.1em 0.5em;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+.main-container {
+  min-height: 60vh;
+  width: 60vw;
+  display: grid;
+  place-items: center;
+}
+
+.container {
+  min-height: 30vh;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+h1,
+h3 {
+  font-family: "Times New Roman", Times, serif;
+  color: #fff;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+h3 {
+  font-size: 3em;
+}
+
+blockquote {
+  color: #fff;
+  line-height: 1.5em;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+input {
+  width: 16vw;
+  margin-top: 2em;
+  background-color: orange;
+  padding: 1em 1.2em;
+  color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 1.3em;
+  font-size: 1.2em;
+  cursor: pointer;
+}
